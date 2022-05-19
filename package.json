@@ -1,0 +1,19 @@
+{
+  "name": "node-graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Dedaldino Daniel",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "graphql": "^16.5.0",
+    "graphql-yoga": "^2.6.0",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
